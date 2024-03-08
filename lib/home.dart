@@ -185,8 +185,7 @@ class _HomePageState extends State<HomePage> {
   }
 
   Future<String> eventCommunicate(
-      {String? calendarId,
-      String? eventId,
+      {String? eventId,
       String? title,
       String? description,
       int? reminderMinutes,
